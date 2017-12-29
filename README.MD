@@ -22,7 +22,7 @@ random.choice(arrayOrString)
 random.hexString(n)
 // Returns a random string of n hexadecimal digits.
 ```
-$ test
+# test
 ```
 yarn run test
 ```
