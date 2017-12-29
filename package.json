@@ -1,12 +1,13 @@
 {
   "name": "mongo-random-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "random string instead mongodb ObjectId",
   "main": "src/index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "publish": "yarn publish --registry https://registry.npmjs.com"
   },
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "git@github.com:zhouxiang1991/mongo-random-id.git"
   },

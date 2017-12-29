@@ -1,12 +1,16 @@
 # mongo-random-id
 # install
 ```
-import random form 'mongo-random-id';
+yarn add mongo-random-id;
 // or
-random = require('mongo-random-id');
+npm insatall mongo-random-id;
 ```
 # usage
 ```
+import random form 'mongo-random-id';
+// or
+random = require('mongo-random-id');
+
 random.id([n])
 // Returns a unique identifier, such as "Jjwjg6gouWLXhMGKW", that is likely to be unique in the whole world. The optional argument n specifies the length of the identifier in characters and defaults to 17.
 
@@ -25,4 +29,6 @@ random.hexString(n)
 # test
 ```
 yarn run test
+// or
+npm run test
 ```
